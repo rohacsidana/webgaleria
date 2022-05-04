@@ -1,16 +1,8 @@
 window.addEventListener("load", init);
-function ID(elem) {
-  return document.getElementById(elem);
-}
-function Class(elem) {
-  return document.getElementsByClassName(elem);
-}
-function $(elem) {
-  return document.querySelectorAll(elem);
-}
-function $1(elem) {
-  return document.querySelector(elem);
-}
+function ID(elem) { return document.getElementById(elem); }
+function Class(elem) { return document.getElementsByClassName(elem); }
+function $(elem) { return document.querySelectorAll(elem); }
+function $1(elem) { return document.querySelector(elem); }
 
 let kepek = [
   {
@@ -55,7 +47,28 @@ let kepek = [
   },
 ];
 
+const zwRuhak = []
+const krRuhak = []
+const esemenyKepek = []
+
 function init() {
+  fetch("ruha.json")
+    .then(response => response.json())
+    .then(data => {
+      console.log(data.zwRuhak)
+      data.zwRuhak.forEach(elem => {
+        zwRuhak.push(elem)
+      })
+      data.krRuhak.forEach(elem => {
+        krRuhak.push(elem)
+      })
+      data.esemenyKepek.forEach(elem => {
+        esemenyKepek.push(elem)
+      })
+    })
+  console.log(zwRuhak)
+  console.log(krRuhak)
+  console.log(esemenyKepek)
   feltolt();
 }
 

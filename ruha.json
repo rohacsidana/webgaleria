@@ -1,0 +1,34 @@
+{
+  "zwRuhak": [
+    {
+      "fotos": "xy",
+      "model": "xyyzz",
+      "tervezo": "anya",
+      "foKep": "zw/zw1/chanel1",
+      "kepei": ["zw/zw1/chanel1", "zw/zw1/chanel12"],
+      "leiras": ""
+    },
+    {
+      "fotos": "xy",
+      "model": "xyyzz",
+      "tervezo": "anya",
+      "foKep": "zw/zw1/chanel1",
+      "kepei": ["zw/zw1/chanel1", "zw/zw1/chanel12"],
+      "leiras": ""
+    }
+  ],
+  "krRuhak": [
+    {
+      "fotos": "xy",
+      "model": "xyyzz",
+      "tervezo": "anya",
+      "foKep": "kr/kr1/fendi1",
+      "kepei": ["kr/kr1/chanel1", "zw/zw1/fendi1"],
+      "leiras": ""
+    }
+  ],
+  "esemenyKepek": [
+    { "leiras": "blabla", "eleresiut": "n.jpg" },
+    { "leiras": "hihi", "eleresiut": "a.jpg" }
+  ]
+}

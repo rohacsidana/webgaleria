@@ -1,16 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon+SC&family=Libre+Bodoni&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon+SC&family=Libre+Bodoni&display=swap");
 .nev {
   position: absolute;
   margin-left: 20px;
   margin-top: 8px;
   color: rgba(255, 255, 255, 0.8);
   text-shadow: 4px 1px 9px #3e3434;
-  font-family: 'Libre Bodoni', serif;
+  font-family: "Libre Bodoni", serif;
   letter-spacing: 2px;
 }
-#cim{    
+#cim {
   letter-spacing: 5px;
-  font-family: 'IM Fell French Canon SC', serif;
+  font-family: "IM Fell French Canon SC", serif;
 }
 #content {
   display: flex;
