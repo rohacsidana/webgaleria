@@ -1,5 +1,5 @@
 {
-  "zwRuhak": [
+  "zerowaste": [
     {
       "fotos": "xy",
       "model": "xyyzz",
@@ -9,6 +9,7 @@
       "leiras": ""
     },
     {
+      "azon":1,
       "fotos": "xy",
       "model": "xyyzz",
       "tervezo": "anya",
@@ -17,6 +18,7 @@
       "leiras": ""
     }
   ],
+  
   "krRuhak": [
     {
       "fotos": "xy",
