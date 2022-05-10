@@ -4,48 +4,7 @@ function Class(elem) { return document.getElementsByClassName(elem); }
 function $(elem) { return document.querySelectorAll(elem); }
 function $1(elem) { return document.querySelector(elem); }
 
-let kepek = [
-  {
-    eleresiUt: "chanel1.jpg",
-    alt: "chanel1",
-    alkotoNev: "Jane Doe",
-  },
-  {
-    eleresiUt: "chanel2.jpg",
-    alt: "chanel2",
-    alkotoNev: "Jane Doe",
-  },
-  {
-    eleresiUt: "chanel3.jpg",
-    alt: "chanel3",
-    alkotoNev: "Jane Doe",
-  },
-  {
-    eleresiUt: "dior1.jpg",
-    alt: "dior1",
-    alkotoNev: "Jane Doe",
-  },
-  {
-    eleresiUt: "fendi1.jpg",
-    alt: "fendi1",
-    alkotoNev: "Jane Doe",
-  },
-  {
-    eleresiUt: "fendi2.jpg",
-    alt: "fendi2",
-    alkotoNev: "Jane Doe",
-  },
-  {
-    eleresiUt: "fendi3.jpg",
-    alt: "fendi3",
-    alkotoNev: "Jane Doe",
-  },
-  {
-    eleresiUt: "fendi4.jpg",
-    alt: "fendi4",
-    alkotoNev: "Jane Doe",
-  },
-];
+
 
 const zwRuhak = []
 const krRuhak = []
