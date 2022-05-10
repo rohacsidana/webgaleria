@@ -4,37 +4,36 @@ function Class(elem) { return document.getElementsByClassName(elem); }
 function $(elem) { return document.querySelectorAll(elem); }
 function $1(elem) { return document.querySelector(elem); }
 
-
-
 const zwRuhak = []
 const krRuhak = []
 const esemenyKepek = []
-
-function init() {
-  fetch("ruha.json")
-    .then(response => response.json())
-    .then(data => {
-      console.log(data.zwRuhak)
-      data.zwRuhak.forEach(elem => {
-        zwRuhak.push(elem)
-      })
-      data.krRuhak.forEach(elem => {
-        krRuhak.push(elem)
-      })
-      data.esemenyKepek.forEach(elem => {
-        esemenyKepek.push(elem)
-      })
-    })
-  console.log(zwRuhak)
-  console.log(krRuhak)
-  console.log(esemenyKepek)
-  feltolt();
+for (let i = 1; i <= 54; i++) {
+  esemenyKepek.push(i).toString + ".jpg"
 }
 
+
+function init() {
+  beolvas()
+  console.log(zwRuhak)
+}
+function beolvas() {
+  fetch("kepek.json")
+    .then((response) => response.json())
+    .then((data) => {
+      data.zerowaste.forEach(elem => {
+        zwRuhak.push(elem)
+      })
+      feltolt()
+    })
+    .catch((err) => {
+      console.log(err)
+    })
+
+}
 function feltolt() {
   let txt = "";
-  for (let i = 0; i < kepek.length; i++) {
-    txt += `<div class = "kepDiv" style="background-image: url(kepek/${kepek[i].eleresiUt});"><a href = #><h3 class="nev">${kepek[i].alkotoNev}</h3></a></div>`;
+  for (let i = 0; i < zwRuhak.length; i++) {
+    txt += `<div class = "kepDiv" style="background-image: url(${zwRuhak[i].eleresiUt});"><h3 class="nev">${zwRuhak[i].alkotoNev}</h3></div>`
   }
   ID("content").innerHTML = txt;
 }

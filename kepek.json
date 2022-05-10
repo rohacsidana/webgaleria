@@ -1,0 +1,196 @@
+{
+  "zerowaste": [
+    {
+      "eleresiUt": "foKepek/zerowaste/arokszallasi.jpg",
+      "azon": "1",
+      "alkotoNev": "Árokszállási Renáta Andrea"
+    },
+    {
+      "eleresiUt": "foKepek/zerowaste/bajusz.jpg",
+      "azon": "2",
+      "alkotoNev": "Bajusz Gyöngyike"
+    },
+    {
+      "eleresiUt": "foKepek/zerowaste/bartha.jpg",
+      "azon": "3",
+      "alkotoNev": "Bartha Emma Zsuzsanna"
+    },
+    {
+      "eleresiUt": "foKepek/zerowaste/berecz.jpg",
+      "azon": "4",
+      "alkotoNev": "Berecz Lili Blanka"
+    },
+    {
+      "eleresiUt": "foKepek/zerowaste/buzas.jpg",
+      "azon": "5",
+      "alkotoNev": "Buzás Vanda Szonja"
+    },
+    {
+      "eleresiUt": "foKepek/zerowaste/fabian.jpg",
+      "azon": "6",
+      "alkotoNev": "Fábián Fanni"
+    },
+    {
+      "eleresiUt": "foKepek/zerowaste/fazekas.jpg",
+      "azon": "7",
+      "alkotoNev": "Fazekas Anna"
+    },
+    {
+      "eleresiUt": "foKepek/zerowaste/juhasz.jpg",
+      "azon": "8",
+      "alkotoNev": "Juhász Nóra"
+    },
+    {
+      "eleresiUt": "foKepek/zerowaste/hoffmann.jpg",
+      "azon": "9",
+      "alkotoNev": "Hoffmann Dóra"
+    },
+    {
+      "eleresiUt": "foKepek/zerowaste/kertesz.jpg",
+      "azon": "10",
+      "alkotoNev": "Kertész Krisztina"
+    },
+    {
+      "eleresiUt": "foKepek/zerowaste/meszaros.jpg",
+      "azon": "11",
+      "alkotoNev": "Mészáros Mercédesz Beatrix"
+    },
+    {
+      "eleresiUt": "foKepek/zerowaste/nagydominika.jpg",
+      "azon": "12",
+      "alkotoNev": "Nagy Dominika Anna"
+    },
+    {
+      "eleresiUt": "foKepek/zerowaste/nagyflora.jpg",
+      "azon": "13",
+      "alkotoNev": "Nagy Flóra"
+    },
+    {
+      "eleresiUt": "foKepek/zerowaste/nagyhanna.jpg",
+      "azon": "14",
+      "alkotoNev": "Nagy Hanna Napsugár"
+    },
+    {
+      "eleresiUt": "foKepek/zerowaste/szoboszlai.jpg",
+      "azon": "15",
+      "alkotoNev": "Szoboszlai Bella"
+    },
+    {
+      "eleresiUt": "foKepek/zerowaste/szorad.jpg",
+      "azon": "16",
+      "alkotoNev": "Szórád Nikolett"
+    },
+    {
+      "eleresiUt": "foKepek/zerowaste/toth.jpg",
+      "azon": "17",
+      "alkotoNev": "Tóth Dávid"
+    },
+    {
+      "eleresiUt": "foKepek/zerowaste/balla.jpg",
+      "azon": "18",
+      "alkotoNev": "Balla Robin"
+    },
+    {
+      "eleresiUt": "foKepek/zerowaste/wertheim.jpg",
+      "azon": "19",
+      "alkotoNev": "Wertheim Loretta"
+    },
+    {
+      "eleresiUt": "foKepek/zerowaste/novak.jpg",
+      "azon": "20",
+      "alkotoNev": "Novák Nóra"
+    }
+  ],
+  "kreativ": [
+    {
+      "eleresiUt": "foKepek/kreativ/arokszallasi.jpg",
+      "azon": "1",
+      "alkotoNev": "Árokszállási Renáta Andrea"
+    },
+    {
+      "eleresiUt": "foKepek/kreativ/bajusz.jpg",
+      "azon": "2",
+      "alkotoNev": "Bajusz Gyöngyike"
+    },
+    {
+      "eleresiUt": "foKepek/kreativ/bartha.jpg",
+      "azon": "3",
+      "alkotoNev": "Bartha Emma Zsuzsanna"
+    },
+    {
+      "eleresiUt": "foKepek/kreativ/berecz.jpg",
+      "azon": "4",
+      "alkotoNev": "Berecz Lili Blanka"
+    },
+    {
+      "eleresiUt": "foKepek/kreativ/buzas.jpg",
+      "azon": "5",
+      "alkotoNev": "Buzás Vanda Szonja"
+    },
+    {
+      "eleresiUt": "foKepek/kreativ/fabian.jpg",
+      "azon": "6",
+      "alkotoNev": "Fábián Fanni"
+    },
+    {
+      "eleresiUt": "foKepek/kreativ/fazekas.jpg",
+      "azon": "7",
+      "alkotoNev": "Fazekas Anna"
+    },
+    {
+      "eleresiUt": "foKepek/kreativ/fodi.jpg",
+      "azon": "8",
+      "alkotoNev": "Fódi Martin Levente"
+    },
+    {
+      "eleresiUt": "foKepek/kreativ/hoffmann.jpg",
+      "azon": "9",
+      "alkotoNev": "Hoffmann Dóra"
+    },
+    {
+      "eleresiUt": "foKepek/kreativ/kertesz.jpg",
+      "azon": "10",
+      "alkotoNev": "Kertész Krisztina"
+    },
+    {
+      "eleresiUt": "foKepek/kreativ/meszaros.jpg",
+      "azon": "11",
+      "alkotoNev": "Mészáros Mercédesz Beatrix"
+    },
+    {
+      "eleresiUt": "foKepek/kreativ/nagydominika.jpg",
+      "azon": "12",
+      "alkotoNev": "Nagy Dominika Anna"
+    },
+    {
+      "eleresiUt": "foKepek/kreativ/nagyflora.jpg",
+      "azon": "13",
+      "alkotoNev": "Nagy Flóra"
+    },
+    {
+      "eleresiUt": "foKepek/kreativ/nagyhanna.jpg",
+      "azon": "14",
+      "alkotoNev": "Nagy Hanna Napsugár"
+    },
+    {
+      "eleresiUt": "foKepek/kreativ/szoboszlai.jpg",
+      "azon": "15",
+      "alkotoNev": "Szoboszlai Bella"
+    },
+    {
+      "eleresiUt": "foKepek/kreativ/szorad.jpg",
+      "azon": "16",
+      "alkotoNev": "Szórád Nikolett"
+    },
+    {
+      "eleresiUt": "foKepek/kreativ/toth.jpg",
+      "azon": "17",
+      "alkotoNev": "Tóth Dávid"
+    },
+    {
+      "eleresiUt": "foKepek/kreativ/wertheim.jpg",
+      "azon": "18",
+      "alkotoNev": "Wertheim Loretta"
+    }
+  ]
+}
