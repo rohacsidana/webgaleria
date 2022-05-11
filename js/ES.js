@@ -4,14 +4,49 @@ function Class(elem) { return document.getElementsByClassName(elem); }
 function $(elem) { return document.querySelectorAll(elem); }
 function $1(elem) { return document.querySelector(elem); }
 
-const zwRuhak = []
-const krRuhak = []
 const esemenyKepek = []
 for (let i = 1; i <= 50; i++) {
   esemenyKepek.push(i)
 }
 function init() {
-  feltoltEsemeny(esemenyKepek, 0, 10)
+  var pozicio = 1
+  var kezdoIndex = 0
+  var vegIndex = 10
+
+  feltoltEsemeny(esemenyKepek, kezdoIndex, vegIndex)
+  ID("bal").addEventListener("click", balra)
+  ID("jobb").addEventListener("click", jobbra)
+
+  function jobbra() {
+    console.log("jobb gomb")
+    if (pozicio < 5) {
+      kezdoIndex += 10
+      vegIndex += 10
+      console.log("jobbravalt")
+
+      pozicio++
+    } else {
+      kezdoIndex = 0
+      vegIndex = 10
+      pozicio = 1
+    }
+    feltoltEsemeny(esemenyKepek, kezdoIndex, vegIndex)
+  }
+  function balra() {
+    console.log("bal gomb")
+    if (1 < pozicio && pozicio <= 5) {
+      vegIndex -= 10
+      kezdoIndex -= 10
+      console.log("balravalt")
+
+      pozicio--
+    } else {
+      kezdoIndex = 40
+      vegIndex = 50
+      pozicio = 5
+    }
+    feltoltEsemeny(esemenyKepek, kezdoIndex, vegIndex)
+  }
 }
 function feltoltEsemeny(tomb, kezdoIndex, vegIndex) {
   let txt = "";

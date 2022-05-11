@@ -1,4 +1,33 @@
-.kepDiv {    
-    width: 300px;
-    height: 250px;
-  }
+.kepDiv {
+  width: 300px;
+  height: 250px;
+}
+.gomb {
+  width: 30px;
+  height: 20px;
+  background-color: #ffe7bd;
+  border-radius: 16px;
+  display: inline-block;
+  cursor: pointer;
+  color: #000000;
+  font-family: Arial;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 12px;
+  text-decoration: none;
+}
+.gomb:hover {
+  background-color: #ffffff;
+}
+.gomb:active {
+  position: relative;
+  top: 1px;
+}
+.gomb img {
+  width: 100%;
+}
+#gombok {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
