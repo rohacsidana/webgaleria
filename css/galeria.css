@@ -2,10 +2,9 @@
 
 .nev {
   position: absolute;
-  margin-left: 20px;
-  margin-top: 8px;
-  color: rgba(255, 255, 255, 0.8);
-  text-shadow: 4px 1px 9px #3e3434;
+  bottom: 1px;
+  left: 16px;
+  text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #ffffff, 0 0 30px #ffffff, 0 0 40px #ffffff, 0 0 55px #ffffff, 0 0 75px #ffffff;
   font-family: "Libre Bodoni", serif;
   letter-spacing: 2px;
 }
