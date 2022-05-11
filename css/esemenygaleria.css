@@ -31,3 +31,7 @@
   flex-direction: row;
   justify-content: space-evenly;
 }
+.kepDiv{
+  filter: grayscale(0);
+  cursor: default;
+}
