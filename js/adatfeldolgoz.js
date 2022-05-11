@@ -1,5 +1,5 @@
 function beolvas(fajlnev, tomb, jsonTomb, callback) {
-  fetch(fajlnev)
+  fetch("js/"+fajlnev)
     .then((response) => response.json())
     .then((data) => {
       data[jsonTomb].forEach(elem => {
@@ -19,11 +19,4 @@ function feltoltRuhak(tomb) {
   }
   ID("content").innerHTML = txt; 
 
-}
-function feltoltEsemeny(tomb){
-  let txt = "";
-  for (let i = 0; i < tomb.length; i++) {
-    txt += `<div class = "kepDiv" style="background-image: url(foKepek/esemeny/${tomb[i]}.jpg);"></div>`
-  }
-  ID("content").innerHTML = txt;
 }
